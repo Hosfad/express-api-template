@@ -6,6 +6,7 @@ Setup
 git clone https://github.com/Hosfad/express-api-template
 cd express-api-template
 yarn install
+yarn dev
 ```
 Running mongodb locally 
 (database url : mongodb://root:example@mongo:27017/)
