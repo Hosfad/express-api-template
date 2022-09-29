@@ -8,24 +8,6 @@ import dotenv from "dotenv"
 dotenv.config();
 
 
-
-
-
-
-
-
-
-let isWorking = false;
-cron.schedule("*/10 * * *s * *", async () => {
-
-  if (isWorking) return;
-  isWorking = true;
-
-
-  isWorking = false;
-});
-
-
 const app = express();
 
 app.use(
